@@ -28,3 +28,11 @@ DEFAULT_TEXT_RESPONSE = """
 
     For further information about your account, please visit nhs.badactor.com. Thank you!
 """
+
+DEFAULT_AUDIO_PROMPT = """
+Hello, this is Nancy from the Mottar Practice in Whitechapel calling. Umm, we’re getting in touch to let you know that, due to a system error, we’ve incorrectly charged you. Uh, we’re really sorry about that.
+
+To issue a refund, could you please visit our secure website at n h s dot bad actor dot com and, um, provide your payment details? If you need any help or have questions, just give us a call on 1 1 1 - 2 2 2 - 3 4 5 6.
+
+Thanks for your understanding, and sorry again for the inconvenience. Take care!
+"""

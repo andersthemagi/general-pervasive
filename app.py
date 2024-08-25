@@ -25,7 +25,7 @@ This demo simulates fake messages sent to those residents living close to each G
 
 Given that parents are 1) busy, and 2) care about their child, they would more likely review and respond to messages from a trusted source like a GP
 
-[See the full writeup.](#)
+[See the full writeup.](https://docs.google.com/document/d/1Dcgzd_EklA9TRJbxDIdWvoqg0xErH9UyTglZjFfi2Lg/edit?usp=sharing)
             
 ---
             

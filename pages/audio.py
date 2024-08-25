@@ -24,7 +24,7 @@ with st.chat_message("assistant"):
         )
         response = st.write_stream(stream)
     except:
-        response = st.write(common.DEFAULT_TEXT_RESPONSE)
+        response = st.write(common.DEFAULT_AUDIO_PROMPT)
 
     speech_file_path = None
     
@@ -42,4 +42,4 @@ with st.chat_message("assistant"):
     except:
         st.audio("default_speech.mp3")
 
-    menu_with_redirect()
+menu_with_redirect()
