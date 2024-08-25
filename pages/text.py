@@ -39,6 +39,7 @@ with st.chat_message("assistant"):
         response = st.write_stream(stream)
     except:
         response = st.write(common.DEFAULT_TEXT_RESPONSE)
+        
     st.session_state.messages.append({"role": "assistant", "content": response})
 
     menu_with_redirect()

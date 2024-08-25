@@ -11,9 +11,11 @@ def menu():
         st.session_state.postal_code = None
     st.sidebar.header("Instructions.")
     st.sidebar.markdown("""
-    Enter a postcode in the UK (here are some [examples](https://ukpostcode.org/location/GB-ENG/City%20and%20County%20of%20the%20City%20of%20London)). You should see a GP name that is closest to the postcode. You can compare your results with the [NHS GP website](https://www.nhs.uk/service-search/find-a-gp).
-
-    Once you have a postal code entered, please choose either an audio or text example.                    
+    You can enter any post code for a GP in the UK.
+    
+    We have included all GPs per [a public registry](https://digital.nhs.uk/services/organisation-data-service/export-data-files/csv-downloads/gp-and-gp-practice-related-data) provided by the NHS.
+    
+    To find a specific GP with a UK postcode, you can search for a UK postcode (per this link)[https://ukpostcode.org/location/GB-ENG/City%20and%20County%20of%20the%20City%20of%20London] and enter the postcode per the (NHS GP site)[https://www.nhs.uk/service-search/find-a-gp] to find the closest GP.                  
     """)
     default_value = st.session_state.postal_code or "E1 7JJ"
     st.sidebar.text_input("Postal Code", value=default_value, key="_postal_code", on_change=keep, args=["postal_code"]) # Bishopsgate
